@@ -3,9 +3,9 @@ Secrétaire : E Ah J’ai
 Gestionnaire : Little Stone
 Scribe : Flo
 
-#Prosit 5.1 Allé
+# Prosit 5.1 Allé
 
-##Mots clés :
+## Mots clés :
 * HTML
 * CSS
 *	Mockup
@@ -15,21 +15,21 @@ Scribe : Flo
 *	Web
 *	Navigateur
 
-##Analyse du besoin :
+## Analyse du besoin :
 *	Pourquoi ?	Adapter le site à différente plateforme
 *	Comment ?	Avec le HTML/CSS
 *	Quoi ?		En le rendant responsive
 
-##Contraintes :
+## Contraintes :
 *	3 semaines
 
-##Problématique :
+## Problématique :
 *	Comment rendre un site web responsive ?
 
-##Généralisation :
+## Généralisation :
 *	Design
 
-##Hypothèses :
+## Hypothèses :
 *	Un site responsive est un site qui se redimensionne
 *	Le footer est en bas de la page
 *	Le header est en HAUT de la page
@@ -38,13 +38,19 @@ Scribe : Flo
 *	Chaque navigateur est différent (You don’t say bro)
 *	HTML est un langage balise
 
-##Plan d’action :
+## Plan d’action :
 
-###**Etudes**
+### **Etudes**
 
-###HTML CSS (syntaxe)
-###	Modélisation de site (Mockup, voir les différents outils existants)
-###	Responsive Design
-###	Référencement
-###	Navigateur
+* HTML CSS (syntaxe)
+* Modélisation de site (Mockup, voir les différents outils existants)
+* Responsive Design
+* Référencement
+* Navigateur
+* Standards
+
+
+# 1 - Le HTML :
+
+
 
