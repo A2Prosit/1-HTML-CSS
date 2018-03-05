@@ -42,7 +42,7 @@ Scribe : Flo
 
 ### **Etudes**
 
-* HTML CSS (syntaxe)
+* HTML / CSS (syntaxe)
 * Modélisation de site (Mockup, voir les différents outils existants)
 * Responsive Design
 * Référencement
@@ -69,11 +69,13 @@ Scribe : Flo
 `EXEMPLE - Strucure minimale`
 
 \<!DOCTYPE html>
+
 \<html> => *Balise principale*
-    \<head> => *En-tête de la page (Liasons, métadonnées, script, css, titre)*
-        \<meta charset="utf-8" />
-        \<title>Titre</title>
-    \</head>
+
+    <head> => *En-tête de la page (Liasons, métadonnées, script, css, titre)
+        <meta charset="utf-8" />
+        <title>Titre</title>
+    </head>
 
     <body> ⇒ Corp de la page
     
@@ -98,3 +100,76 @@ Scribe : Flo
 - **Styling** : Plus de thèmes pour des auteurs (Compatibilité avec dernières nouveautés CSS)
 
 # 2 - Le CSS :
+
+- CSS (Cascading Style Sheets)
+- Compatible avec les navigateurs sous leurs dernières versions (pour avoir toutes les fonctionnalités)
+- mettre en forme un document HTML ou XML
+- décrit comment les éléments doivent-être interprétés par des règles
+- Ces règles peuvent-être appliqués à un ou plusieurs documents et portent sur :
+	- Positionnement
+	- Alignement
+	- Police
+	- Couleurs
+	- Marges
+	- Espacements
+	- Bordures
+	- Image de fond
+	- {...}
+- Ces règles sont à appliquer sur des balises, des classes, ou des ID (élément unique)
+
+**Framework**:  (ensemble de composants structurés qui sert à créer les bases et à organiser le code informatique pour faciliter le travail)
+
+
+**Bootstrap** :
+
+Framework CSS et embarque les composants HTML et CSS. Il utilise un système de grille simple et efficace pour mettre en ordre l'aspect visuel d'une page. On y retrouve des styles pour les boutons, les formulaires, et concevoir avec peu de lignes un site web rapidement. Bootstrap vient de Twitter.
+- Cross-Browser
+- Fait gagner du temps
+- Normalisation des styles
+- Grille pour le positionnement des éléments
+- Éléments complémentaires (boutons / esthétiques...)
+- Framework prend en compte le responsive design
+
+MAIS 
+- Nécessite de bien le connaître 
+
+# 3 - Le responsive Design :
+
+Approche de la conception web qui vise à avoir une expérience de lecture et de navigation optimale pour l'utilisateur quel que soit l'appareil. 
+
+![](https://developers.google.com/search/mobile-sites/imgs/mobile-seo/transition.png)
+
+Le client doit pouvoir effectuer ses tâches habituelles en toute simplicité. Il faut donc :
+- Déterminer les étapes de parcours pour accéder à ce qu'il a besoin
+- Offrir de la facilité
+- Un seul URL 
+- Un même thème (unifié)
+
+En choisissant le responsive Design, on conserve le même URL et le même code HTML (pas besoin d'un site mobile pour le mobile)
+
+**Les médias Queries** = Responsive Design sur lequel on va prendre des données supplémentaires pour changer le style (type écran, impression, taille, téleviseur, couleurs, resolutions, tailles...). On peut y fixer des min et des max. Très utile pour changer la couleur ou la police.
+
+**La diffusion dynamique :**
+
+Configuration dans laquelle le serveur diffuse un code HTML / CSS différent sur le même URL en fonction du user-agent qui demande à accéder à la page, se faisant en conservant la même URL. Pour se faire, il faut détecter ces user-agents (ce qui comporte de nombreux risques)
+
+# 4 - Web & Législation:
+https://www.service-public.fr/professionnels-entreprises/vosdroits/F31228
+
+Tout les sites à titre professionnel doivent indiquer : 
+- Nom / prénom / domicile
+- Pour une société : raison sociale, adresse, montant du capital => CF Registre du commerce
+- courrier électronique
+- Numéro d'inscription au registre du commerce (RC) + RM (si artisanale)
+- Pour un commerce : N° Identification fiscale
+- Nom & adresse autorité
+- Nom du directeur
+- Si vente : prix exprimés en € et TTC
+- Numéro de déclaration simplifiée CNIL
+
+Pour les cookies :
+- Informer les utilisateurs 
+- Donner leur consentement
+- Fournir aux internautes le moyen de refuser
+- 
+# 5 - Référencement :
