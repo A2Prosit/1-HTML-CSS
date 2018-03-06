@@ -6,14 +6,14 @@ Scribe : Flo
 # Prosit 5.1 Allé
 
 ## Mots clés :
-* HTML
-* CSS
-*	Mockup
-*	Responsive
-*	Référencement
-*	Footer
-*	Web
-*	Navigateur
+* HTML : HyperText Markup Language
+* CSS : Cascading Style Sheets
+*	Mockup : Terme informatique pour désigner une maquette d'une interface utilisateur
+*	Responsive : Approche de la conception web qui vise à avoir une expérience de lecture et de navigation optimale pour l'utilisateur quel que soit l'appareil. 
+*	Référencement : Place dans les moteurs de recherches
+*	Footer : Bas de page dans une page HTML
+*	Web : La toile, permet de consulter avec un navigateur des pages accessibles sur des sites
+*	Navigateur : Application qui permet de naviguer sur le web
 
 ## Analyse du besoin :
 *	Pourquoi ?	Adapter le site à différente plateforme
@@ -171,5 +171,42 @@ Pour les cookies :
 - Informer les utilisateurs 
 - Donner leur consentement
 - Fournir aux internautes le moyen de refuser
-- 
+
 # 5 - Référencement :
+
+On y retrouve de nombreuses astuces :
+- Réfléchir aux mots clés et les intégrer dans son site 
+- Travailler les menus, les URL, et les balises avec ces mots clés
+- Prendre en compte les recherches réalisées à l'oral via un smartphone
+- Utiliser les balises de manières optimale (descriptions ...) => Facilitent l'indexation & ont une incidence sur le taux de clic
+- Optimiser la navigation mobile : Google détecte les sites dont la navigation est optimale (responsive design)
+- Améliorer la qualité de ses textes : Contenus aux attentes => Partage par les utilisateurs => référencement
+- Booster la vitesse de chargement : Google pénalise les trop longs.
+- Eviter bugs & pages d'erreurs 
+- Sécuriser votre site pour éviter d'être blacklist de google
+- Installer certificat SSL & passer du HTTP à HTTPS
+- Google MyBusiness permet d'ajouter toutes les infos pour aider google à comprendre (infos à propos entreprise)
+- Gagner en visibilité sur les réseaux sociaux
+- Créer un fichier sitemap, c'est un .xml qu'on lui fournit à google pour l'aider à indexer. Il propose aussi des infos détaillés sur des problèmes que peut rencontrer notre site après l'analyse d'un bot de google.
+
+
+Il est également possible d'acheter des mots clés sur les moteurs de recherches, il s'agir alors d'emplacement publicitaires. Il existe de nombreuses agences spécialisés dedans, cependant un référencement doit-être progressif.
+
+# 6 - Outils :
+
+**W3C ou Markup Validation** Service permet de coller son code et de vérifier que les standards sont respectés.
+Son service peut verifier le HTML, le CSS, mais pas le PHP.
+
+http://validator.w3.org/
+
+**Test d'optimisation mobile** Petit site qui teste le responsive desgin du site : on rentre une URL et il nous dis si la configuration ne superpose  pas d'élements... 
+
+https://search.google.com/test/mobile-friendly
+
+**Pencil project** : GUI Open Source, qui permet de faire du maquettage.
+
+
+![](https://cdn2.techadvisor.fr/cmsdata/features/3656883/meilleur_navigateur_internet_2017.png)
+
+
+
