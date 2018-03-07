@@ -6,14 +6,14 @@ Scribe : Flo
 # Prosit 5.1 Allé
 
 ## Mots clés :
-* HTML
-* CSS
-*	Mockup
-*	Responsive
-*	Référencement
-*	Footer
-*	Web
-*	Navigateur
+* **HTML:** language balise conçu pour représenter les pages web. Il permet de structurer le contenu de la page
+* **CSS:** cascading style sheets, langages info qui décrit la présentation des doc html et xml
+*	**Mockup:** maquette visuelle
+*	**Responsive:** site ergonomique sur tout média
+*	**Référencement:** ordre d'apparition dans un moteur de recherche
+*	**Footer:** le bas de la page ou on peut mettre des liens utiles, style réseaux sociaux, contatcs
+*	**Web:** www partie d'internet qui peut être accédé avec des hyperliens (via un navigateur)
+*	**Navigateur:** logiciel conçu pour naviguer sur le world wide web
 
 ## Analyse du besoin :
 *	Pourquoi ?	Adapter le site à différente plateforme
@@ -56,13 +56,13 @@ Les tags html ne sont pas case sensitive
 
 HTML5 
 
-les ressources html5 sont classiié en plusieurs groupes:
+les ressources html5 sont classifié en plusieurs groupes:
 
 * semantique : permet de décrire le contenu : <\section> <\article> <\nav> <\header> <\footer> <\aside>
 * connectivité : permet la communication avec le serv
 * offline et stockage : permet aux page de stocker des données côté client pour opérer plus efficacement hors ligne 
 * Multimedia: vidéo, audio <\audio> <\video>
-* 2D/3D graphics and effects: options de présentation
+* 2D/3D graphics and effects: options de présentation <\canvas>
 * Performance et integration: permet l'opimisation et une meilleure utilisation du hardware
 * Device access : input outpout <\input> <\output>
 * Styling: permet de faire des thèmes sophistiqués
@@ -169,6 +169,9 @@ id donne un nom à la balise qui doit être unique sur la pge, on s'en sert pour
 style permet d'indiquer directement le code css à appliquer, on peut donc l'utiliser et ne pas avoir de feuille css ... à ne pas faire
 note : ces 3 attributs ne sont pas propre aux balises génériques 
 
+
+tags spécifiques à html5 : https://www.w3schools.com/html/html5_new_elements.asp
+
 ###CSS
 
 Utilisé pour qu'HTML garde son but qui est de structurer le document, le css s'occupe de la présentation
@@ -193,7 +196,7 @@ On peut appliquer le css directement sur une page html ou en référençant une 
 
 ou avec feuille interne avec <\style>
 
-		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
 	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 	  <head>
@@ -320,8 +323,81 @@ CSS1 décrit plusieurs pseudo-éléments :
 * before : modifie le style de ce qui précède l'élément.
 
 ###	Modélisation de site (Mockup, voir les différents outils existants)
+
+En info un mockup désigne un prototype d'interface utilisateur. Il s'agit donc d'une maquette de ce à quoi ressemblera le logiciel visuellement
+
+pencil pour créer des maquettes, montrer visuellement à quoi le site va ressembler
+
+site pour en trouver déjà faits:
+
+https://www.pixeden.com/free-graphics/
+https://medialoot.com/free-resources/
+
+
+
 ###	Responsive Design
+
+Permet la lecture opimale d'un site sur différents appareil (pc, mobile, tablette, liseuse,...)
+
+Cela implique donc des redimensionnements (zooms), recadrages et défilement multidirectionnel
+
+Pour avoir un site adapté au miéa on a trois solutions: 
+
+* un site dédié : on créé plusieur versions du site, un test côté serveur détecte le type d'appareil et renvoie vers l'adresse dédiée (m.siteweb.com par exemple). **Av:** on peut modifier précisément la structure et le contenu du site, alternative "rapide" en attendant une refonte du site. **Inc:** contenu dupliqué, doit maintenir plusieurs sites et adresses, moins facile d'être indexé par un moteur de recherche
+* une application native: appli dev en différents "langages" pour différents supports (iOS, Android, WindowsPhone) téléchargeable depuis le store.  **Av:** prise en charge des fonctionnalitées natives (accélérometre, GPS, etc), ergonome, l'utilisateur à un raccourci vers mon site sur son phone. **Inc :** dev spécifique dans plusieurs langages, coût de dev, licenses, maintenance, contenu non indexable par un moteur de recherche 
+* un site responsive: coûts et délais inférieurs aux autres techniques, maintenance facilitée, MAJ multi-plateformes, on peut modifier un site déjà existant, google met en avant ces sites. **Inc :** nécessite des connaissances techniques, prévoir des tests sur différents médias pendant le dev, prob d'ergonomie et de perf, 25% plus long qu'une site non responsive
+
+####différents web designs:
+
+**Static**: 
+dimension fixes (960px) peu importe l'écran
+
+**Fluide/liquid :**
+
+toutes les largeures sont en pourcentage de fenêtre jusqu'a un min/max
+
+**Adaptative**
+
+statique amélioré : largeur fixe mais différentes selon la taille de l'écran. On la détecte avec CSS3 Media Queries. On a des points de rupture (480px, 768px,1024px, etc) et on a autant de gabarit fixes que de points de rupture
+
+**Responsive :**
+
+Amélioration du design fluide associé à des méthodes ***CSS3 Media Queries*** pour modifier les style pour s'adapter à la taille de l'écran peu importe le point de rupture
+
 ###	Référencement
+
+SEO en anglais Search Engine Optimization: ensemble des techniques permettant d'améliorer la visibilité d'un site web, son positionnement dans les résultats d'un moteur de recherche
+
+Repose avant tout sur la notion de mos clés, ce que l'utilisateur va chercher. 
+
+on peut check si son site est référencé en cherchant " site:nomdusite.com"
+pour faire référencer son site on peut remplir des formulaires en ligne comme google analytics ou AT internet
+
+https://www.google.com/webmasters/tools/submit-url
+http://www.bing.com/toolbox/webmaster
+https://fr.aide.yahoo.com/kb/SLN2217.html
+http://www.exalead.com/search/web/submit/
+
+
+On ne peut pas utiliser le pouvoir de l'argent afin de mieux référencer son site car les moteurs de recherche indexent gratuitement le contenu des sites. On peut cependant payer pour avoir de la pub autour des résultats "naturels" (= le lien sponso) on parle alors de SEM (Marketing) plutôt que SEO
+
+
+Optimiser le référencement: ne pas tout mettre sur la page d'acceuil et négliger le reste puisque c'est le reste qui interesse les utilisateurs.
+Bien choisir les titres, les URL, lesmétas, etc adaptés **pour chaque page**
+
+tips:
+contenu original et attractif
+titre bien choisi
+URL adaptées
+corp de texte lisible par les SE
+balises META décrivant le contenu de la page: meta description et meta robots (index,follow; noindex,follow;indexnofollow;noindex,nofollow
+liens
+attributs ALT pour décrire le contenu des images
+MAJ régulière pour augment la fréquence des bots d'indexation
+mettre les pages inutiles ou doublon dans robots.txt
+si on a du contenu dupiqué ajouter une balise canonical ( <link rel="canonical" href="http://votresite/pagefinale"/> )
+
+
 ###	Navigateur (moteur)
 
 Un moteur de rendu HTML permet aux logiciels d'afficher les éléments d'une page web.
@@ -349,7 +425,7 @@ Blink dérivé de WebKit:
 
 Trident de Microsoft:
 
-**Internet Explorer**
+**Internet Explorer !**
 Netscape
 Yahoo Explorer
 
@@ -378,3 +454,4 @@ Mariner de Netscape Communication Corporation (jamais commercialisé)
 
 ### Standards
 
+world wide web consortium W3C fondé en 94 chargé de promouvoir la compatibilité des technologies du world wide web : html5, html, xhtml, xml, rdf, sparql, css, xsl, png, svg, soap
