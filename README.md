@@ -209,4 +209,22 @@ https://search.google.com/test/mobile-friendly
 ![](https://cdn2.techadvisor.fr/cmsdata/features/3656883/meilleur_navigateur_internet_2017.png)
 
 
+# 7 - Nouveaux élements importants:
+
+Une balise de type **block** sur une page web crée automatiquement un retour à la ligne avant et après. Il est possible de mettre un block à l'intérieur d'un autre. (ex : \<header>, \<article>, \<nave>, \<p>, \<h1> {...})
+
+Une balise de type **inline** se trouve obligatoirement à l'intérieur d'une balise "block', elle ne crée pas de retour à la ligne, s'écrivant donc sur la même ligne. (ex : \<a>, \<strong>, \<img/> )
+
+Une balise **inline-block** : Elements positionnés les uns à côté des autres, mais qui peuvent-être redimensionnés comme des blocks.
+
+**css :**
+
+**float :** [position] -> Utilisé pour positionner des éléments dans un container (ancienne méthode)
+
+**display : block** -> Transforme en block
+**display : inline-block** -> Transforme en inline-block
+
+**position : absolute** : Permet de placer un élement n'importe où sur la page. On le complète avec right / bottom... par rapport au centre de la page. Nous avons aussi le z-index qui permet de définir la couche.
+
+**position : relative** : Sert à effectuer des ajustements, va se déplacer par rapport à la position où il se trouve
 
