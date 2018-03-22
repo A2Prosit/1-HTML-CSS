@@ -84,89 +84,89 @@ code minimal d'une page html:
 
 **liste non exausitve de basiles:**
 
-html : balise principale
-head : en tête de la page
-body : corp de la page
-link / : lisaison avec une feuille de style
-meta / : métadonnées de la page
-script : code JS
-style : code CSS
-title : titre de la page
-nav : lien principaux de navigation
-footer : pied de page
-section : section de page
-article : article
-aside : info complémentaires
+* html : balise principale
+* head : en tête de la page
+* body : corp de la page
+* link / : lisaison avec une feuille de style
+* meta / : métadonnées de la page
+* script : code JS
+* style : code CSS
+* title : titre de la page
+* nav : lien principaux de navigation
+* footer : pied de page
+* section : section de page
+* article : article
+* aside : info complémentaires
 
 texte :
 
-abbr : abréviation
-blockquote : citation longue
-cite : citation du titre d'une oeuvre ou d'un évènement
-q : citation courte
-sup : exposant
-sub : indice
-strong : mise en valeur forte
-em : mise en valeur normale
-mark : mise en valeur visuelle
-h1, h2, h3, etc : titre de niveau x
-img / : image
-figure : figure
-figcaption : description de figure
-audio : son
-video : vidéo
-source : format source d'une balise audio et video
-a : lien hypertexte
-br / : retour à la ligne
-p : paragraphe
-hr / : ligne de séparation horizontale
-address : adresse de contact
-del : texte supprimé
-ins : texte inséré
-dfn : définition
-kbd : saisie clavier
-time : date ou heure
+* abbr : abréviation
+* blockquote : citation longue
+* cite : citation du titre d'une oeuvre ou d'un évènement
+* q : citation courte
+* sup : exposant
+* sub : indice
+* strong : mise en valeur forte
+* em : mise en valeur normale
+* mark : mise en valeur visuelle
+* h1, h2, h3, etc : titre de niveau x
+* img / : image
+* figure : figure
+* figcaption : description de figure
+* audio : son
+* video : vidéo
+* source : format source d'une balise audio et video
+* a : lien hypertexte
+* br / : retour à la ligne
+* p : paragraphe
+* hr / : ligne de séparation horizontale
+* address : adresse de contact
+* del : texte supprimé
+* ins : texte inséré
+* dfn : définition
+* kbd : saisie clavier
+* time : date ou heure
 
 balises de listes : 
 
-ul : liste à puce
-ol : list numérotée
-li : éléments de la liste à puce
-dl : liste de définitions
-dt : terme à définir
-dd : définition du terme
+* ul : liste à puce
+* ol : list numérotée
+* li : éléments de la liste à puce
+* dl : liste de définitions
+* dt : terme à définir
+* dd : définition du terme
 
 balises tableaux :
 
-table : tableau
-caption : titre du tableau
-tr : ligne du tableau
-th : cellule d'en-tête
-td : cellule
-thread : section de l'en-tête
-tbody : section du corp
-tfoot : section de pied
+* table : tableau
+* caption : titre du tableau
+* tr : ligne du tableau
+* th : cellule d'en-tête
+* td : cellule
+* thread : section de l'en-tête
+* tbody : section du corp
+* tfoot : section de pied
 
 basiles de formulaire:
 
-form : formulaire
-fieldset : grope de champs
-legend : titre d'un grp de champs
-label : libellé d'un champ
-input / : champ de formlaire
-textarea : zone detexte multiligne
-select : liste déroulante
-option : élément d'une liste déroulante
-optgroup : groupe d'éléments d'une liste déroulante
+* form : formulaire
+* fieldset : grope de champs
+* legend : titre d'un grp de champs
+* label : libellé d'un champ
+* input / : champ de formlaire
+* textarea : zone detexte multiligne
+* select : liste déroulante
+* option : élément d'une liste déroulante
+* optgroup : groupe d'éléments d'une liste déroulante
 
 balises génériques (sans sens sémantique), elles n'ont d'intérêt que si on leur associe un attribut class, id ou style
 
-span : balise générique de type inline
-div : balise générique de type block
+* span : balise générique de type inline
+* div : balise générique de type block
 
-class indique le nom de la classe css à utiliser
-id donne un nom à la balise qui doit être unique sur la pge, on s'en sert pour ,par exemple, créer un lien vers une ancre, un styleCSS de type ID, des manipulations en JS
-style permet d'indiquer directement le code css à appliquer, on peut donc l'utiliser et ne pas avoir de feuille css ... à ne pas faire
+* class indique le nom de la classe css à utiliser
+* id donne un nom à la balise qui doit être unique sur la pge, on s'en sert pour ,par exemple, créer un lien vers une ancre, un styleCSS de type ID, des manipulations en JS
+* style permet d'indiquer directement le code css à appliquer, on peut donc l'utiliser et ne pas avoir de feuille css ... à ne pas faire
 note : ces 3 attributs ne sont pas propre aux balises génériques 
 
 
